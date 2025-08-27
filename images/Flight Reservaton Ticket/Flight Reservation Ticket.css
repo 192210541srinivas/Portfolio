@@ -1,6 +1,5 @@
 body{
-background-image:url('Portfolio/images/Flight Reservaton Ticket
-/karachi-lahore-flight-faces-intense-turbulence-amid-severe-storm-1748230081838-16_9.webp');
+background-image:url('images/Flight Reservaton Ticket/karachi-lahore-flight-faces-intense-turbulence-amid-severe-storm-1748230081838-16_9.webp');
 background-size:cover;
 margin:2px;
 font-family:sans-serif,arials;
@@ -31,9 +30,9 @@ margin-bottom: 12%;
 }
 form input{
 margin:5px auto;
-align:center;
+text-align:center;
  width: 95%;
-display=block;
+display:block;
 border-radius: 6px;
 
 }
@@ -51,6 +50,4 @@ text-align:center;
 padding: 10px;
 color:white;
 }
-
-
 
