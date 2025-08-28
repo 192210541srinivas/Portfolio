@@ -6,15 +6,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
   menuToggle.addEventListener('click', function() {
     menu.classList.toggle('show');
-    // Toggle margin for main content
     if (menu.classList.contains('show')) {
-      main.style.marginTop = '370px'; // navigation + menu height
+      main.style.marginTop = '370px'; 
     } else {
-      main.style.marginTop = '70px'; // navigation height
+      main.style.marginTop = '70px'; 
     }
   });
 
-  // Close menu after clicking a nav link
   navLinks.forEach(link => {
     link.addEventListener('click', function() {
       if (window.innerWidth <= 600) {
@@ -37,11 +35,9 @@ window.addEventListener("scroll", () => {
   const windowHeight = window.innerHeight;
 
   if (footerRect.top < windowHeight) {
-    // Footer visible → push button up
     let overlap = windowHeight - footerRect.top + 20;
     darkModeBtnWrapper.style.bottom = overlap + "px";
   } else {
-    // Normal position
     darkModeBtnWrapper.style.bottom = "20px";
   }
 });
@@ -63,3 +59,4 @@ function toggleDarkMode(iconId) {
 
 document.getElementById("darkmod").addEventListener("click", () => toggleDarkMode("darkmod-icon"));
 document.getElementById("darkmode").addEventListener("click", () => toggleDarkMode("darkmode-icon2"));
+
