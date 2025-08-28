@@ -105,9 +105,9 @@ body.dark-mod .intro{
   height: 70px;
   background-color: #333;
   display: flex;
-  flex-direction: row !important;   /* 🔑 force row, never column */
+  flex-direction: row !important;   
   align-items: center;
-  justify-content: space-between;   /* logo left, hamburger right */
+  justify-content: space-between;  
   padding: 0 20px;
   z-index: 1000;
 }
@@ -230,7 +230,7 @@ li a {
   width: 0;
   white-space: nowrap;
   overflow: hidden;
-  border-right: 3px solid #333;  /* blinking cursor effect */
+  border-right: 3px solid #333;  
   animation: typing 4s steps(30, end) forwards, blink 0.7s step-end infinite;
   animation-delay: 3s;
 }
@@ -313,7 +313,7 @@ li{
 
 
 .menu-toggle {
-  display: none;   /* hidden on desktop */
+  display: none;   
   font-size: 28px;
   color: white;
   cursor: pointer;
@@ -359,8 +359,8 @@ li{
 
 .skills {
   display: flex;
-  flex-direction: row;   /* Horizontal layout */
-  flex-wrap: wrap;       /* Allow wrapping to next line if more than 3 */
+  flex-direction: row;  
+  flex-wrap: wrap;     
   gap: 20px;
   width: 80%;
   margin: auto;
@@ -372,9 +372,9 @@ li{
 }
 
 .Java, .HTML, .CSS, .JavaScript, .ReactJS, .SQL, .Python{
-  flex: 1 1 30%;         /* Max 3 per row, responsive */
-  min-width: 300px;      /* Minimum width for each box */
-  max-width: 400px;      /* Optional: limit max width */
+  flex: 1 1 30%;        
+  min-width: 300px;     
+  max-width: 400px;      
   margin: 30px;
   display: flex;
   width: auto;
@@ -394,7 +394,7 @@ li{
   transform: scale(1.15);
 }
 
-/* Move transition to the base selector for smooth effect */
+
 .Java, .HTML, .CSS, .JavaScript, .ReactJS, .SQL, .Python {
   transition: transform 0.5s;
 }
@@ -523,7 +523,7 @@ li{
   color: #333;
 }
 
-/* ✅ Universal Dark Mode Styles (works for desktop + mobile) */
+
 body.dark-mod {
   background: #181818;
   color: #f1f1f1;
@@ -650,24 +650,24 @@ body.dark-mod .non{
   }
 
   .menu.show {
-    max-height: 300px; /* adjust as needed */
+    max-height: 300px; 
     opacity: 1;
     padding: 15px 0;
   }
 
   .main {
-    margin-top: 70px; /* navigation height */
+    margin-top: 70px; 
     transition: margin-top 0.4s;
   }
 
   .menu.show ~ .main {
-    margin-top: 370px; /* navigation + menu height */
+    margin-top: 370px; 
   }
 }
 
 @media (max-width: 600px) {
   .main {
-    flex-direction: column-reverse; /* stack image & text */
+    flex-direction: column-reverse; 
     align-items: center;
     text-align: center;  height: 90%;
   width: 100%;
@@ -708,14 +708,14 @@ margin: 20px;
 }
 
   .menu {
-    display: none;  /* hidden until toggle */
+    display: none;  
     flex-direction: column;
-    align-items: flex-start;   /* <-- Change from center to flex-start */
+    align-items: flex-start;   
     background: #333;
-    width: 100%;               /* <-- Full width */
+    width: 100%;               
     padding: 15px 0;
     position: absolute;
-    top: 70px;   /* directly below navbar */
+    top: 70px;   
     left: 0;
     padding-right: 0;
   }
@@ -733,7 +733,7 @@ margin: 20px;
 
   .navigation {
   display: flex;
-  justify-content: space-between; /* logo left, others right */
+  justify-content: space-between;
   align-items: center;
   padding: 0 15px;
   }
@@ -741,14 +741,14 @@ margin: 20px;
   .nav {
     flex-direction: column;
     gap: 10px;
-    align-items: flex-start;   /* <-- Add this line */
+    align-items: flex-start;   
     width: 100%;
-    padding-left: 20px;        /* Optional: add some left padding */
+    padding-left: 20px;       
   }
 
   .resume {
     margin-top: 10px;
-    justify-content: flex-start; /* Move to left */
+    justify-content: flex-start;
     align-items: center;
     padding-right: 0;
     align-self: flex-start;
@@ -781,7 +781,7 @@ margin: 20px;
 
   .skills {
     display: flex;
-    flex-direction: column; /* Stack skill boxes vertically */
+    flex-direction: column; 
     align-items: stretch;
     width: 100%;
     padding: 10px;
@@ -800,7 +800,7 @@ margin: 20px;
   .ReactJS:hover,
   .SQL:hover,
   .Python:hover {
-    transform: scale(1.05);  /* Slight zoom on hover */
+    transform: scale(1.05);  
   }
 
 
@@ -841,14 +841,14 @@ margin: 20px;
   }
 
   .menu.show {
-    max-height: 500px; /* enough to show all items */
+    max-height: 500px; 
     opacity: 1;
     padding: 15px 0;
     display: flex;
   }
 
   .main {
-    margin-top: 70px; /* Same as .navigation/menu bar height */
+    margin-top: 70px; 
   }
 
   .footer-2{
@@ -959,7 +959,7 @@ margin: 20px;
   .dark {
   display: flex;
   align-items: center;
-  gap: 10px; /* spacing between moon & menu */
+  gap: 10px; 
   margin-left: auto;
   margin-right: 10px; 
 }
@@ -975,16 +975,16 @@ footer{
   width: 0;
   white-space: nowrap;
   overflow: hidden;
-  border-right: 3px solid #333;  /* blinking cursor effect */
+  border-right: 3px solid #333; 
   animation: typing 4s steps(30, end) forwards, blink 0.7s step-end infinite;
   animation-delay: 3s;
 }
 
 }
 
-/* Show desktop button */
 @media (min-width: 601px) {
   #darkmode {
     display: block;
   }
 }
+
