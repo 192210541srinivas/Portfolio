@@ -1,0 +1,114 @@
+body {
+margin:2px;
+font-family: arial, sans-serif;
+background-color: #363636;
+  user-select: none;  
+
+
+}
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 6px;
+  box-shadow:5px 5px 10px rgba(0, 0, 0, 0.5);
+  display: block;
+}
+.srinivas {
+text-align:center;
+}
+
+.container {
+background-color:#999999;
+border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.personal-profile {
+  flex: 1;
+font-size:100px;
+}
+.photo {
+  flex: 1;
+padding-left: 50px;
+}
+
+h2{
+text-align: center;
+text-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+h1{
+color: white;
+text-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+text-align: center;
+}
+.gh{
+background-color: #CCCCCC;
+border-radius:6px;
+max-width:1000px;
+margin: 80px auto;
+box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+
+justify-content: space-between;
+padding: 50px 0 50px 0;
+}
+
+.plk,.lkg,.ai,.edu,.kl,.skill{
+background-color: #999999;
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+border-radius: 6px; 
+padding: 20px;
+margin: 20px auto;
+max-width:800px;
+display:flex;
+}
+
+.pt {
+  display: flex;
+  justify-content: space-between;
+}
+button {
+background-color: #CCCCCC;
+border-radius: 8px;
+cursor: pointer;
+}
+
+nav {
+display: flex;
+background-color:#999999; 
+text-align: right;
+padding: 10px;
+color:black;
+}
+.aa {
+color:black;
+text-decoration: none;
+padding: 10px;
+}
+.menu {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+
+}
+
+.menu li {
+
+  margin: 0 15px;
+}
+.kk{
+color:black;
+}
+html {
+  scroll-behavior: smooth;
+}
+a{
+text-decoration: none;
+}
+
+
